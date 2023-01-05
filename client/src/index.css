@@ -14,7 +14,7 @@ code {
     monospace;
 }
 
-.particles {
+.particles-lines {
   position: relative;
   top: 0;
   left: 0;
@@ -22,4 +22,32 @@ code {
   height: 100vw;
 }
 
+.particles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vw;
+  z-index: 0;
+}
+
+.header {
+  position: absolute;
+  width: 100vw;
+  height: fit-content;
+  z-index: 1;
+}
+
+a {
+  color: #ffffff;
+}
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
 

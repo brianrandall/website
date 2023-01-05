@@ -1,14 +1,14 @@
 import React, { useEffect } from "react";
 import ParticleCloud from "@codegewerk/particle-cloud";
 
-export default function ParticleCloudNoLines() {
+export default function ParticleCloudCanvas() {
   useEffect(() => {
     const instance = new ParticleCloud({
       speed: 0.2,
       maxParticles: 900,
-      selector: ".particles",
+      selector: ".particles-lines",
       color: "#ffffff",
-      connectParticles: false,
+      connectParticles: true,
       minDistance: 90,
       responsive: [
         {
@@ -43,5 +43,5 @@ export default function ParticleCloudNoLines() {
     return () => instance.destroy();
   }, []);
 
-  return <canvas className="particles"></canvas>;
+  return <canvas className="particles-lines"></canvas>;
 }
