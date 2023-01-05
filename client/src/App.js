@@ -1,6 +1,5 @@
 import './App.css';
 import ParticleCloudCanvas from './components/part';
-import fc from './components/img/fc.gif';
 
 function App() {
 
@@ -11,7 +10,7 @@ function App() {
      <code style={{fontSize: 'small'}}> portfolio // contact</code>
      <ParticleCloudCanvas />
      <code>
-     Hello! My name is [Insert Name Here] and I am a passionate web developer and software engineer with a love for the great outdoors. When I'm not writing code, you can usually find me hiking through the mountains or exploring new trails on my bike. But even when I'm out enjoying nature, my love for creative coding always manages to find its way into my activities.
+     Hello! My name is [Insert Name Here] annnnnnnnd I am a passionate web developer and software engineer with a love for the great outdoors. When I'm not writing code, you can usually find me hiking through the mountains or exploring new trails on my bike. But even when I'm out enjoying nature, my love for creative coding always manages to find its way into my activities.
 
 Whether it's tinkering with the latest JavaScript library or designing a new website, I am constantly pushing myself to learn and grow as a developer. With a strong background in both front-end and back-end development, I have a well-rounded skillset that allows me to tackle any project that comes my way.
 
@@ -19,7 +18,6 @@ In addition to my technical skills, I am a highly motivated and detail-oriented 
 
 So whether I'm coding up a storm or hitting the trails, I am always striving to make the most of every opportunity that comes my way.
       </code>
-      <img src={fc} alt="fc" width={'100% '}/>
     </div>
   );
 }
