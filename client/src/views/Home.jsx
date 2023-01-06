@@ -5,7 +5,7 @@ import ParticleCloudCanvas from '../components/part_lines'
 const Home = () => {
   return (
     <div>
-    <code>brian randall </code><br/>
+    <code>brian randall  </code><br/>
     <code style={{fontSize: 'small'}}>
         <Link to={'/portfolio'}> 
             portfolio 
