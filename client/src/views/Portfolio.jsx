@@ -1,6 +1,5 @@
 import React from 'react'
 import ParticleCloudNoLines from '../components/part'
-import ParticleCloudCanvas from '../components/part_lines'
 
 const Portfolio = () => {
   return (
@@ -16,16 +15,15 @@ const Portfolio = () => {
         {' // '}
         <a href='/contact'>
             contact
-         </a>
+         </a> <br/>
+         <a href="/doc/br_res.pdf">download</a> resume (updated 01/23) 
     </code>
     </div>
         <ParticleCloudNoLines />
         <div className='portfolio'>
-            <code>
-                <p>
-                    coming soon...
-                </p>
-            </code>
+        <code>
+            whatever
+        </code>
         </div>
     </div>
   )

@@ -5,9 +5,9 @@ export default function ParticleCloudCanvas() {
   useEffect(() => {
     const instance = new ParticleCloud({
       speed: 0.2,
-      maxParticles: 900,
+      maxParticles: 1500,
       selector: ".particles-lines",
-      color: "#ffffff",
+      color: ["#ffffff"],
       connectParticles: true,
       minDistance: 90,
       responsive: [
