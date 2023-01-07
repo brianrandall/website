@@ -17,7 +17,7 @@ const Home = () => {
     </code>
     <ParticleCloudCanvas />
     <code>
-     <p>Hello! My name is Brian Randall and I am a passionate web developer and software engineer living somewhere in California. When I'm not staring at my computer, you can usually find me on my motorcycle somewhere, mountain biking somewhere, camping somewhere, or at the bar.</p>
+     <p>Hello! My name is Brian Randall and I am a passionate web developer and software engineer living somewhere in California. When I'm not staring at my computer, you can usually find me on my motorcycle, mountain biking, camping, or at the beach.</p>
 
     <p>I am constantly pushing myself to learn and grow as a developer and as a human. I thrive on hands on experience and learning new skills, crafts, languages, hobbies, whatever. With a strong background in both front-end dev, back-end dev, design, management, logistics and planning, I have a well-rounded skillset that allows me to tackle any project that comes my way with an "i don't know but i will figure it out" attitude.</p>
 
