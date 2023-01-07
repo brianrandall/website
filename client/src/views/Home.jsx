@@ -17,13 +17,15 @@ const Home = () => {
     </code>
     <ParticleCloudCanvas />
     <code>
-     Hello! My name is [Insert Name Here] annnnnnnnd I am a passionate web developer and software engineer with a love for the great outdoors. When I'm not writing code, you can usually find me hiking through the mountains or exploring new trails on my bike. But even when I'm out enjoying nature, my love for creative coding always manages to find its way into my activities.
+     <p>Hello! My name is Brian Randall and I am a passionate web developer and software engineer living somewhere in California. When I'm not staring at my computer, you can usually find me on my motorcycle somewhere, mountain biking somewhere, camping somewhere, or at the bar.</p>
 
-Whether it's tinkering with the latest JavaScript library or designing a new website, I am constantly pushing myself to learn and grow as a developer. With a strong background in both front-end and back-end development, I have a well-rounded skillset that allows me to tackle any project that comes my way.
+    <p>I am constantly pushing myself to learn and grow as a developer and as a human. I thrive on hands on experience and learning new skills, crafts, languages, hobbies, whatever. With a strong background in both front-end dev, back-end dev, design, management, logistics and planning, I have a well-rounded skillset that allows me to tackle any project that comes my way with an "i don't know but i will figure it out" attitude.</p>
 
-In addition to my technical skills, I am a highly motivated and detail-oriented individual with a strong work ethic. I pride myself on my ability to collaborate effectively with both technical and non-technical team members, and I am always looking for new ways to improve the user experience.
+    <p>In addition to my technical skills, I am a highly motivated and detail-oriented individual with a strong work ethic. I pride myself on my ability to collaborate effectively with both technical and non-technical team members, and I am always looking for new ways to improve the user experience.</p>
 
-So whether I'm coding up a storm or hitting the trails, I am always striving to make the most of every opportunity that comes my way.
+    <p>However you found yourself here, find my email on the contact page and say hi!</p>
+
+  
     </code>
     </div>
   )
