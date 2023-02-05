@@ -5,17 +5,6 @@ import { projectInfo } from '../components/projectInfo'
 
 const Portfolio = () => {
 
-    console.log(projectInfo)
-
-    // const [selected, setSelected] = useState({
-    //     twitter: true,
-    //     babylon: false,
-    //     body: false,
-    //     wildman: false,
-    //     soaked: false,
-    //     brain: false
-    // })
-
     const [selectedProject, setSelectedProject] = useState(projectInfo[0])
 
   return (
