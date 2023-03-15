@@ -19,6 +19,8 @@ const Contact = () => {
         <a href='/contact'>
             contact
          </a>
+         <br/>
+          <a href="/doc/BRIAN-RANDALL-3-15-23.pdf">download</a> resume (updated 03/23)
     </code>
     </div>
         <ParticleCloudNoLines />

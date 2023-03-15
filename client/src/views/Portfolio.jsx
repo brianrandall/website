@@ -21,7 +21,7 @@ const Portfolio = () => {
         <a href='/contact'>
             contact
          </a> <br/>
-         <a href="/doc/br_res.pdf">download</a> resume (updated 03/23) 
+         <a href="/doc/BRIAN-RANDALL-3-15-23.pdf">download</a> resume (updated 03/23) 
     </code>
     </div>
         <ParticleCloudNoLines />
