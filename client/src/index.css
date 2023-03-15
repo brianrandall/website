@@ -93,3 +93,26 @@ a {
   align-items: center;
   margin-top: 2.5em;
 }
+
+.bio {
+  position: absolute;
+  top: 10em;
+  margin-left: 10%;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 10px 0 rgba(217, 215, 215, 0.9);
+  transition: ease-in-out 0.5s;
+  padding: 1em;
+  border-radius: 25px;
+  margin-top: 2.5em;
+  z-index: 2;
+}
+
+.bio:hover {
+  box-shadow: 0 0 30px 0 rgba(217, 215, 215, 0.9);
+  transform: scale(1.05);
+}
