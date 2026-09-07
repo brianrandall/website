@@ -73,48 +73,6 @@
     ]
   },
   {
-    "id": "good-nature",
-    "title": "Good Nature Treehouse",
-    "category": "Truckee, California · Fabrication",
-    "summary": "Siding, trim and design input for a custom treehouse.",
-    "description": [
-      "On a custom treehouse build in Truckee, California, I completed all of the siding and trim and contributed to design choices during construction. Good Nature Treehouse is based in the Lake Tahoe area.",
-      "My work focused on the details that make a finished structure coherent: executing the exterior finish and adapting design decisions to the physical build. It is a direct extension of the way I approach interactive work—understanding how separate parts meet, then resolving those connections in practice."
-    ],
-    "role": "Siding, trim, finish execution and design input",
-    "tech": [
-      "Finish carpentry",
-      "Siding",
-      "Trim",
-      "Field fabrication"
-    ],
-    "links": [
-      {
-        "title": "Good Nature Treehouse",
-        "link": "https://www.instagram.com/goodnaturetreehouse/"
-      }
-    ]
-  },
-  {
-    "id": "nelson-treehouse",
-    "title": "Nelson Treehouse",
-    "category": "Wisconsin · Built environments",
-    "summary": "Custom structures, from framing through finish.",
-    "description": [
-      "As a carpenter with Nelson Treehouse and Supply, I worked as part of the team building more than 20 custom treehouses for a resort project in Wisconsin. The work spanned formwork, structural framing, exterior construction and interior finish.",
-      "Elevated construction, tree preparation, rope access and structural rigging were part of the field environment. These builds required practical problem-solving across unusual structures and multiple phases of construction.",
-      "That experience informs my creative-technology practice: the physical installation, access, assembly and troubleshooting deserve the same attention as the software controlling an experience."
-    ],
-    "role": "Team-based carpentry, fabrication and field installation",
-    "tech": [
-      "Structural framing",
-      "Finish carpentry",
-      "Rigging",
-      "Rope access",
-      "Field installation"
-    ]
-  },
-  {
     "id": "please",
     "title": "PLEASE",
     "category": "Local AI · macOS command-line tool",
@@ -160,6 +118,48 @@
         "label": "Preview photo organization",
         "command": "please organize-photos --dry-run"
       }
+    ]
+  },
+  {
+    "id": "good-nature",
+    "title": "Good Nature Treehouse",
+    "category": "Truckee, California · Fabrication",
+    "summary": "Siding, trim and design input for a custom treehouse.",
+    "description": [
+      "On a custom treehouse build in Truckee, California, I completed all of the siding and trim and contributed to design choices during construction. Good Nature Treehouse is based in the Lake Tahoe area.",
+      "My work focused on the details that make a finished structure coherent: executing the exterior finish and adapting design decisions to the physical build. It is a direct extension of the way I approach interactive work—understanding how separate parts meet, then resolving those connections in practice."
+    ],
+    "role": "Siding, trim, finish execution and design input",
+    "tech": [
+      "Finish carpentry",
+      "Siding",
+      "Trim",
+      "Field fabrication"
+    ],
+    "links": [
+      {
+        "title": "Good Nature Treehouse",
+        "link": "https://www.instagram.com/goodnaturetreehouse/"
+      }
+    ]
+  },
+  {
+    "id": "nelson-treehouse",
+    "title": "Nelson Treehouse",
+    "category": "Wisconsin · Built environments",
+    "summary": "Custom structures, from framing through finish.",
+    "description": [
+      "As a carpenter with Nelson Treehouse and Supply, I worked as part of the team building more than 20 custom treehouses for a resort project in Wisconsin. The work spanned formwork, structural framing, exterior construction and interior finish.",
+      "Elevated construction, tree preparation, rope access and structural rigging were part of the field environment. These builds required practical problem-solving across unusual structures and multiple phases of construction.",
+      "That experience informs my creative-technology practice: the physical installation, access, assembly and troubleshooting deserve the same attention as the software controlling an experience."
+    ],
+    "role": "Team-based carpentry, fabrication and field installation",
+    "tech": [
+      "Structural framing",
+      "Finish carpentry",
+      "Rigging",
+      "Rope access",
+      "Field installation"
     ]
   },
   {
