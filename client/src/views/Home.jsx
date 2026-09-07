@@ -1,34 +1,6 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import ParticleCloudCanvas from '../components/part_lines'
-
-const Home = () => {
-  return (
-    <div>
-    <code>brian randall  </code><br/>
-    <code style={{fontSize: 'small'}}>
-        <Link to={'/portfolio'}> 
-            portfolio 
-        </Link>
-        {' // '}
-        <Link to={'/contact'}>
-            contact
-        </Link>
-        <br/>
-        <a href="/doc/BRIAN-RANDALL-3-15-23.pdf">download</a> resume (updated 03/23) 
-    </code>
-    <ParticleCloudCanvas />
-    <div className='bio'>
-      <code>
-        <p>Hello! My name is Brian Randall and I am a web developer and software engineer living somewhere in California. I have a strong background in full-stack development, design, and 10+ years experience in management, logistics & planning. When I'm not at my computer, you can find me on my motorcycle, mountain biking, camping, or at the beach.</p>
-        <p>I am constantly pushing myself to learn and grow as a developer and as a human. I thrive with hands-on-experience and learning new skills, crafts, languages, hobbies, whatever. With a strong background in full-stack development, design, management, logistics and planning, I have a well-rounded skillset that allows me to tackle any project that comes my way.</p>
-        <p>In addition to my technical skills, I am a highly motivated and detail-oriented individual with a strong work ethic. I pride myself on my ability to collaborate effectively with both technical and non-technical team members, and I am always looking for new ways to improve the user experience.</p>
-        <p>However you found yourself here, find my email on the contact page and say hi!</p>
-      </code>
-    </div>
-    </div>
-  )
+import { Link } from 'react-router-dom';
+import Header from '../components/Header';
+import ParticleCloudCanvas from '../components/part_lines';
+export default function Home() {
+ return <><Header/><ParticleCloudCanvas/><main className="home-content"><p className="eyebrow">Creative technologist · Interactive systems developer · Fabricator</p><h1>I build things that live between software and the physical world.</h1><div className="intro-copy"><p>My work connects code, sensors, sound, light and physical structures. I develop interactive audiovisual systems, build software and automation tools, and bring practical experience in electrical work, carpentry and fabrication.</p><p>I’m comfortable moving between a computer, an electronics bench and a jobsite—prototyping behavior, wiring the system, building the environment and troubleshooting how it all works together.</p><p>From live projections to sensor-driven installations and custom treehouses, the thread is the same: making separate parts work as a complete experience.</p></div><Link className="action" to="/portfolio">Explore selected work <span aria-hidden="true">↗</span></Link></main></>;
 }
-
-export default Home
-

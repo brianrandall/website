@@ -1,53 +1,10 @@
-import item from './img/bby/item.png'
-import landing1 from './img/bby/landing1.png'
-import landing2 from './img/bby/landing2.png'
-import landing3 from './img/bby/landing3.png'
 import maxpat from './img/body/maxpat.gif'
 import screen from './img/body/screen.gif' 
-import siteStatic from './img/tl/site.png'
-import site from './img/tl/site.gif'
 import live from './img/wm/live.png'
 import max from './img/wm/max.png'
 import ReactPlayer from 'react-player'
 
 export const projectInfo = [
-    {
-        title: 'twitter.lite',
-        description: [
-            'A twitter clone built with React, Java, Spring-Boot and MySql. Users can create an account, make posts, follow other users, and favorite other posts.'],
-        tech: ['React', 'Java', 'Spring - Boot', 'MySql', 'Amazon AWS (EC2)', 'bCrypt'],
-        carousel: [
-            <img src={siteStatic} alt="login" width='100%' />,
-            <img src={site} alt="site" width='100%'/>,
-        ],
-        links: [
-            {
-                title: 'github',
-                link: 'https://github.com/brianrandall/twitter_lite'
-            },
-            {
-                title: 'live',
-                link: 'http://13.57.238.142/'
-            }
-        ]
-    },
-    {
-        title: 'babylon dot com',
-        description: ['Full stack eCommerce web app, made to be a clone of amazon.com'],
-        tech: ['MongoDB', 'Express', 'React', 'Node.js', 'FakerAPI'],
-        carousel: [
-            <img src={landing1} alt="landing1" width='100%'/>,
-            <img src={landing2} alt="landing2" width='100%'/>,
-            <img src={landing3} alt="landing3" width='100%'/>,
-            <img src={item} alt="item" width='100%'/>,
-        ],
-        links: [
-            {
-                title: 'github',
-                link: 'https://github.com/brianrandall/babylonDotCom'
-            }
-        ]
-    },
     {
         title: 'body language',
         description: [

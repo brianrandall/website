@@ -1,0 +1,186 @@
+[
+  {
+    "id": "body-language",
+    "title": "Body Language",
+    "category": "Interactive installation",
+    "summary": "An environment played through movement, touch and proximity.",
+    "description": [
+      "For a gallery opening in Portland, I developed an interactive audiovisual environment connecting physical objects and infrared sensors to sound and projected imagery. Visitors interacted with a central sculptural controller while projections animated three-dimensional structures throughout the room.",
+      "A Wi-Fi-enabled Arduino brought physical input into a networked Max/MSP system. Max processed and routed the sensor data, coordinating OSC messages between the applications responsible for live audio and visual behavior. Max for Live and the Ableton Live API connected that interaction to the audio environment.",
+      "The work brought sensing, communication, sound and projection together as one installation. The surviving recordings show the control patch and the software environment behind the experience."
+    ],
+    "system": "Physical sensors → Arduino / OSC → Max/MSP / Max for Live → Ableton Live + live visuals → projection",
+    "role": "Interactive systems, sensor integration, audiovisual programming"
+  },
+  {
+    "id": "wildman",
+    "title": "Wildman",
+    "category": "Sun Drug · Live projection and lighting",
+    "summary": "A music-video system that performed its effects in the room.",
+    "description": [
+      "Working closely with Sun Drug, I built a live audiovisual workflow for Wildman around Kinect imagery, projection and custom lighting control. Infrared imagery from an Xbox Kinect supplied a two-layer real-time mask in VDMX, allowing projected visuals to be composed around a live performer.",
+      "With an extremely small budget, I wrote an Arduino lighting-control sketch and connected it to a custom Max/MSP patch over serial communication. Ableton Live sent OSC cues to coordinate the lighting sequences and projected visuals with the performance.",
+      "The video was created almost entirely live, with only a small amount of post-production editing. The surviving Ableton automation and RGBduino patch screenshots make the control system visible alongside the finished video. The project was featured by VICE / The Creators Project and on the blog of Vidvox, the makers of VDMX."
+    ],
+    "system": "Kinect → VDMX masking / projection; Ableton Live → OSC → Max/MSP → Arduino / lighting",
+    "role": "Creative collaboration, real-time projection, custom lighting control"
+  },
+  {
+    "id": "soaked",
+    "title": "Soaked",
+    "category": "Sun Drug · Audiovisual production",
+    "summary": "Depth imagery, programmed light and a coordinated physical production.",
+    "description": [
+      "For another collaboration with Sun Drug, I combined Xbox Kinect capture and a beta release of Depthkit Studio with programmed lighting and a physical performance environment. The project extended the live production approach of Wildman into a more elaborate shoot.",
+      "Lighting sequences were prepared ahead of time. During the shoot I coordinated playback and lighting, supplied audio to the performers, operated the fog machine from inside the cube, and communicated with the drone operator. These were interdependent parts of the same performance.",
+      "I assembled the drone footage in Ableton Live so that the cuts could be aligned directly with the music. The videos below preserve the project’s visual documentation; the finished work was featured by VICE / The Creators Project."
+    ],
+    "system": "Kinect / Depthkit capture + programmed lighting + audio playback → coordinated shoot → music-synchronized edit",
+    "role": "Creative collaboration, depth capture, lighting and production control"
+  },
+  {
+    "id": "brain-wave-viz",
+    "title": "Brain Wave Viz",
+    "category": "Biosensing · Generative audio and image",
+    "summary": "Brain-wave measurements translated into a live audiovisual response.",
+    "description": [
+      "Built in close collaboration with a friend, this project combined a gallery experiment with work for my CalArts portfolio submission. A NeuroSky Mindset headset provided brain-wave data as the input to a live system of generated imagery, sound and light.",
+      "PureData received the measurements and reduced the array of signals to a single control value. That value drove a visualization in Quartz Composer, while PureData also generated audio and communicated over serial with an Arduino controlling a DMX light.",
+      "The project explored how a stream of physiological measurements could become a shared sensory experience. Its central design problem was translating the incoming data into behavior across several media at once."
+    ],
+    "system": "NeuroSky Mindset → PureData → Quartz Composer + generated audio + Arduino / DMX",
+    "role": "Collaborative audiovisual development and hardware integration"
+  },
+  {
+    "id": "liberia",
+    "title": "Liberia",
+    "category": "Audio-reactive projection",
+    "summary": "Live sound and performer imagery driving generative projection.",
+    "description": [
+      "For Liberia, I developed a real-time audiovisual system connecting live instrument input to generative graphics and spatial projection. Audio analysis drove procedural geometry and particle behavior in Quartz Composer.",
+      "Generated layers were shared through Syphon into VDMX for compositing and performance control. Kinect-based performer masking connected the imagery to the people and space in the performance.",
+      "The system treated sound and movement as control inputs: the visual behavior could respond during the performance rather than depending entirely on a pre-rendered sequence."
+    ],
+    "system": "Live audio → Quartz Composer → Syphon → VDMX; Kinect → performer masking → projection",
+    "role": "Audio-reactive graphics and projection systems",
+    "tech": [
+      "Quartz Composer",
+      "Syphon",
+      "VDMX",
+      "Kinect",
+      "Audio analysis",
+      "Projection"
+    ]
+  },
+  {
+    "id": "good-nature",
+    "title": "Good Nature Treehouse",
+    "category": "Truckee, California · Fabrication",
+    "summary": "Siding, trim and design input for a custom treehouse.",
+    "description": [
+      "On a custom treehouse build in Truckee, California, I completed all of the siding and trim and contributed to design choices during construction. Good Nature Treehouse is based in the Lake Tahoe area.",
+      "My work focused on the details that make a finished structure coherent: executing the exterior finish and adapting design decisions to the physical build. It is a direct extension of the way I approach interactive work—understanding how separate parts meet, then resolving those connections in practice."
+    ],
+    "role": "Siding, trim, finish execution and design input",
+    "tech": [
+      "Finish carpentry",
+      "Siding",
+      "Trim",
+      "Field fabrication"
+    ],
+    "links": [
+      {
+        "title": "Good Nature Treehouse",
+        "link": "https://www.instagram.com/goodnaturetreehouse/"
+      }
+    ]
+  },
+  {
+    "id": "nelson-treehouse",
+    "title": "Nelson Treehouse",
+    "category": "Wisconsin · Built environments",
+    "summary": "Custom structures, from framing through finish.",
+    "description": [
+      "As a carpenter with Nelson Treehouse and Supply, I worked as part of the team building more than 20 custom treehouses for a resort project in Wisconsin. The work spanned formwork, structural framing, exterior construction and interior finish.",
+      "Elevated construction, tree preparation, rope access and structural rigging were part of the field environment. These builds required practical problem-solving across unusual structures and multiple phases of construction.",
+      "That experience informs my creative-technology practice: the physical installation, access, assembly and troubleshooting deserve the same attention as the software controlling an experience."
+    ],
+    "role": "Team-based carpentry, fabrication and field installation",
+    "tech": [
+      "Structural framing",
+      "Finish carpentry",
+      "Rigging",
+      "Rope access",
+      "Field installation"
+    ]
+  },
+  {
+    "id": "please",
+    "title": "PLEASE",
+    "category": "Local AI · macOS command-line tool",
+    "summary": "Plain English in. A shell command you can inspect before it runs.",
+    "description": [
+      "I built PLEASE to make everyday terminal tasks easier to express and understand. A request such as “find every jpg over 20mb” becomes a proposed shell command, accompanied by an explanation. The tool uses Ollama, configured to run locally on the user’s machine, to translate requests into structured command proposals.",
+      "The implementation separates proposing a command from deciding whether to execute it. Pydantic validates the model response, then a local rule-based check assesses the command independently of the model’s own risk label. The interface shows the command, explanation and assessment before asking for confirmation by default. Dry-run mode stops at the preview; commands classified as high risk require an explicit typed confirmation, and matching catastrophic patterns are refused.",
+      "Alongside generated commands, PLEASE includes a dedicated photo and video organizer. It reads dates from filenames or macOS metadata, prepares moves into year/month folders, and lets the user review the plan before applying it. Command explanations, model diagnostics and configurable model selection round out the first release.",
+      "The design centers on making automation legible: the person using it should be able to see what is proposed and choose whether to proceed. This is an early command-assistance tool with heuristic checks; broader directory inspection and autonomous coding remain future work."
+    ],
+    "role": "CLI design, Python development, local model integration and execution workflow",
+    "system": "Plain-English request → Ollama / structured proposal → validation + local risk checks → command preview → confirmation → shell execution",
+    "tech": [
+      "Python",
+      "Ollama",
+      "Typer",
+      "Rich",
+      "Pydantic",
+      "HTTPX",
+      "macOS",
+      "zsh"
+    ],
+    "links": [
+      {
+        "title": "View PLEASE on GitHub",
+        "link": "https://github.com/brianrandall/please"
+      },
+      {
+        "title": "Read the setup and usage guide",
+        "link": "https://github.com/brianrandall/please#readme"
+      }
+    ],
+    "examples": [
+      {
+        "label": "Preview a request",
+        "command": "please --dry-run find every jpg over 20mb"
+      },
+      {
+        "label": "Understand a command",
+        "command": "please explain 'find . -type f -size +20M'"
+      },
+      {
+        "label": "Preview photo organization",
+        "command": "please organize-photos --dry-run"
+      }
+    ]
+  },
+  {
+    "id": "software-systems",
+    "title": "Software & Systems",
+    "category": "Python · Automation · Audio software",
+    "summary": "Software that connects tools, data and practical workflows.",
+    "description": [
+      "My current Python work includes a local media Content Engine, a Local Business Lead Finder, and PLEASE, my local terminal assistant. Across these projects, the focus is on connecting independent tools through structured data and understandable workflows.",
+      "The Content Engine combines research, analysis and media generation with run records and restart behavior. The lead finder brings together discovery, enrichment, auditing and qualification. PLEASE now has its own case study here, with its implementation available on GitHub.",
+      "During a four-month role at Tensorpunk in 2023, I contributed to TOME, an AI/ML-focused audio-production application, working across Python/Flask, React, PostgreSQL, APIs and deployment infrastructure. These software projects extend the integration work at the center of my installations."
+    ],
+    "role": "Software development, APIs and workflow integration",
+    "tech": [
+      "Python",
+      "Flask",
+      "React",
+      "PostgreSQL",
+      "APIs",
+      "Local AI",
+      "Automation"
+    ]
+  }
+]
