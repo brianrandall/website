@@ -1,6 +1,6 @@
 # Brian Randall — creative technology portfolio
 
-Working copy of the original brianrandall.dev React site. Original archive remains at `~/Dropbox/CODING DOJO/website`.
+Working copy of the original brianrandall.dev React site.
 
 ## Local development
 
