@@ -4,19 +4,15 @@ import { Routes, Route } from 'react-router-dom';
 import Home from './views/Home';
 import Portfolio from './views/Portfolio';
 import Contact from './views/Contact';
+import Resume from './views/Resume';
 
-function App() {
-
-
-  return (
-    <div className="App">
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path='/contact' element={<Contact />} />
-      </Routes>
-    </div>
-  );
+export default function App() {
+  return <div className="App">
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/portfolio" element={<Portfolio />} />
+      <Route path="/resume" element={<Resume />} />
+      <Route path="/contact" element={<Contact />} />
+    </Routes>
+  </div>;
 }
-
-export default App;
