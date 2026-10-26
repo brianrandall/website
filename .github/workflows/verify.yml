@@ -1,0 +1,26 @@
+name: Verify portfolio
+on:
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  test-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: client/package-lock.json
+      - run: npm ci
+        working-directory: client
+      - run: npm test -- --watchAll=false
+        working-directory: client
+        env:
+          CI: true
+      - run: npm run build
+        working-directory: client
+        env:
+          CI: true
