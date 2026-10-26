@@ -1,5 +1,73 @@
 [
   {
+    "id": "farm-ordering",
+    "title": "Farm Inventory & Ordering",
+    "category": "Paid client engagement · Business operations software",
+    "status": "In active development · Organization-wide rollout planned for spring 2027",
+    "summary": "Replacing paper-and-email produce ordering with one shared, real-time inventory and ordering workflow.",
+    "description": [
+      "A small produce business managed availability on paper and coordinated orders over email. I was hired to develop a system that brings inventory, customer orders and staff administration into one place. The project started with understanding the owner's actual weekly workflow, not choosing a tech stack.",
+      "I designed a staff-facing workspace for preparing next week's availability without showing unfinished inventory to customers. At a stakeholder walkthrough, the owner raised exactly that concern; I demonstrated the distinction between staged data and the explicit publish action, showing how the system meets the business requirement.",
+      "The application includes a shared inventory pool, server-side availability checks, real-time changes across connected clients, ordering, pricing tiers, order administration and invoice output. Development is ongoing ahead of a planned spring 2027 rollout; this is not yet a publicly launched or production-validated system."
+    ],
+    "system": "Staff inventory and weekly staging → explicit publish → shared availability → customer orders → live stock updates + invoices",
+    "role": "Paid independent development: requirements discovery, client walkthroughs, backend/frontend design, implementation and iteration",
+    "tech": [
+      "Python",
+      "FastAPI",
+      "SQLAlchemy",
+      "Svelte",
+      "WebSockets / Socket.IO",
+      "REST APIs",
+      "Role-aware workflows"
+    ]
+  },
+  {
+    "id": "pymuz",
+    "title": "PyMuz",
+    "category": "Independent R&D · Construction planning software",
+    "status": "Active prototype · Complex geometry and documentation in development",
+    "summary": "Turning hard-won field knowledge about construction geometry into measurable, repeatable software workflows.",
+    "description": [
+      "Construction drawings and 3D models do not automatically tell a carpenter how to cut every board. PyMuz is an ongoing experiment in connecting model geometry to the practical measurements a builder needs: roof framing, compound angles, birdsmouths, valleys, cut lists and usable layouts.",
+      "I'm translating complicated roof-framing rules—including unequal roof pitches, irregular hips, jack rafters and precise heel/seat constraints—into explicit calculations, geometry checks and visual output. The goal is not to replace a builder's judgment, but to make the information behind that judgment easier to inspect.",
+      "The project explores a browser-based interface for model import and inspection, parameterized framing, cut lists, and clearly annotated PDF plans. Some paths are still being tested and revised against real-world builds; I treat this as active product development, not finished commercial software."
+    ],
+    "system": "3D model or framing parameters → geometry analysis → cut dimensions / angle calculations → preview + annotated plans",
+    "role": "Product concept, construction-domain modeling, calculation design, prototype implementation and field validation",
+    "tech": [
+      "Python",
+      "Geometry",
+      "SketchUp / 3D models",
+      "PDF generation",
+      "Roof framing",
+      "CAD workflows"
+    ]
+  },
+  {
+    "id": "content-engine",
+    "title": "Content Engine",
+    "category": "Independent project · Local AI automation",
+    "status": "Working prototype · Iterative development",
+    "summary": "An end-to-end local-first workflow connecting research, structured language-model output, narration and video assembly.",
+    "description": [
+      "I built an automated content pipeline that connects multiple otherwise separate tools: trend discovery and research, local LLM analysis, structured content packages, narration, transcription, captioning, image and scene production, and final video assembly.",
+      "The pipeline uses JSON contracts between stages, locally running language models and media tooling, and a Telegram-controlled entry point. The interesting engineering problem is orchestration: making tools with different interfaces work in a dependable, inspectable sequence.",
+      "The system has produced short-form content for publishing, and I continue iterating on run reliability and output quality. It is an example of building practical automation while avoiding paid hosted language-model dependencies."
+    ],
+    "system": "Research → local LLM / JSON outputs → speech + captions → visual assets → FFmpeg assembly → reviewable short video",
+    "role": "Workflow architecture, Python integration, prompt-to-structured-data design, local model and media automation",
+    "tech": [
+      "Python",
+      "Ollama",
+      "Telegram",
+      "Piper",
+      "Whisper",
+      "FFmpeg",
+      "JSON"
+    ]
+  },
+  {
     "id": "body-language",
     "title": "Body Language",
     "category": "Interactive installation",

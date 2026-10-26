@@ -1,13 +1,7 @@
 {
   "short_name": "Brian Randall",
-  "name": "Brian Randall \u2014 Creative Technologist",
-  "icons": [
-    {
-      "src": "icon.png",
-      "sizes": "100x100",
-      "type": "image/png"
-    }
-  ],
+  "name": "Brian Randall — Technical Solutions & Automation",
+  "icons": [{"src":"icon.png","sizes":"100x100","type":"image/png"}],
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#080808",
