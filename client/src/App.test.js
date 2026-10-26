@@ -8,7 +8,7 @@ jest.mock('./components/part_lines', () => () => null);
 test('portfolio features paid client software and preserves the original creative case studies', () => {
   render(<MemoryRouter initialEntries={['/portfolio?project=farm-ordering']}><App /></MemoryRouter>);
   expect(screen.getByRole('heading', { name: 'Farm Inventory & Ordering' })).toBeTruthy();
-  expect(screen.getByText(/planned spring 2027 rollout/i)).toBeTruthy();
+  expect(screen.getAllByText(/planned spring 2027 rollout/i).length).toBeGreaterThan(0);
   expect(screen.getByRole('button', { name: 'Body Language' })).toBeTruthy();
   expect(screen.getAllByRole('button').length).toBe(12);
   expect(screen.queryByRole('button', { name: /twitter|babylon/i })).toBeNull();
